@@ -4,8 +4,8 @@
   "name": "Finigami",
   "colors": {
     "primary": "#FFB231",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "light": "#0a4e69",
+    "dark": "#0a4e69"
   },
   "favicon": "/favicon.svg",
   "navigation": {
