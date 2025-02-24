@@ -5,9 +5,9 @@
   "colors": {
     "primary": "#FFB231",
     "light": "#0a4e69",
-    "dark": "#0a4e69"
+    "dark": "#FFB231"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.ico",
   "navigation": {
     "tabs": [
       {
@@ -16,9 +16,7 @@
           {
             "group": "Get Started",
             "pages": [
-              "introduction",
-              "quickstart",
-              "development"
+              "introduction"
             ]
           }
         ]
