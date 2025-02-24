@@ -9,10 +9,7 @@
   },
   "favicon": "/favicon.ico",
   "navigation": {
-    "tabs": [
-      {
-        "tab": "Guides",
-        "groups": [
+    "groups": [
           {
             "group": "Get Started",
             "pages": [
@@ -21,26 +18,7 @@
               "api-reference/endpoint/get"
             ]
           }
-        ]
-      },
-      {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoints",
-            "pages": [
-              "api-reference/endpoint/get"
-            ]
-          }
-        ]
-      }
-    ],
+        ],
     "global": {
       "anchors": []
     }
