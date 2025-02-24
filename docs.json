@@ -16,7 +16,9 @@
           {
             "group": "Get Started",
             "pages": [
-              "introduction"
+              "introduction", 
+              "api-reference/introduction",
+              "api-reference/endpoint/get"
             ]
           }
         ]
