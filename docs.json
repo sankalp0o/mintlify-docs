@@ -33,11 +33,9 @@
             ]
           },
           {
-            "group": "Endpoint Examples",
+            "group": "Endpoints",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete"
+              "api-reference/endpoint/get"
             ]
           }
         ]
@@ -60,8 +58,8 @@
     ],
     "primary": {
       "type": "button",
-      "label": "Sign In",
-      "href": "https://finigami.com/sign-in"
+      "label": "Dashboard",
+      "href": "https://www.finigami.com/sign-in"
     }
   },
   "footer": {
