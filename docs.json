@@ -45,5 +45,13 @@
     "socials": {
       "linkedin": "https://www.linkedin.com/company/finigami"
     }
+  },
+  "api": {
+    "mdx": {
+      "server": "https://mintlify.com/api"
+    },
+    "playground": {
+      "display": "none"
+    }
   }
 }
