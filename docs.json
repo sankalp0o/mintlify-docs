@@ -15,8 +15,8 @@
             "pages": [
               "introduction", 
               "credits",
-              "api-reference/introduction",
-              "api-reference/endpoint/get"
+              "authentication",
+              "run-document-template"
             ]
           }
         ],
@@ -48,7 +48,7 @@
   },
   "api": {
     "mdx": {
-      "server": "https://mintlify.com/api"
+      "server": "https://api.finigami.com/v1"
     },
     "playground": {
       "display": "none"
