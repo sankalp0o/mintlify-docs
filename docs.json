@@ -11,9 +11,10 @@
   "navigation": {
     "groups": [
           {
-            "group": "Get Started",
+            "group": "Index",
             "pages": [
               "introduction", 
+              "credits",
               "api-reference/introduction",
               "api-reference/endpoint/get"
             ]
