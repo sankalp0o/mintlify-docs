@@ -7,7 +7,7 @@
   },
   "tags": [],
   "paths": {
-    "/v1/run": {
+    "/run": {
       "post": {
         "summary": "https://api.finigami.com/v1/run",
         "deprecated": false,
@@ -73,5 +73,10 @@
       }
     }
   },
-  "servers": []
+  "servers": [
+    {
+      "url": "https://api.finigami.com/v1",
+      "description": "Production server"
+    }
+  ]
 }
