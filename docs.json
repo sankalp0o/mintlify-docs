@@ -16,14 +16,9 @@
               "introduction", 
               "credits",
               "authentication",
-              "run-document-template"
+              "run-document-template",
+              "/api-reference/endpoint/get"
             ]
-          },
-          {
-            "group": "Endpoints",
-            "openapi": {
-              "source": "/api-reference/openapi.json"
-            }
           }
       ],
     "global": {
@@ -50,14 +45,6 @@
   "footer": {
     "socials": {
       "linkedin": "https://www.linkedin.com/company/finigami"
-    }
-  },
-  "api": {
-    "mdx": {
-      "server": "https://api.finigami.com/v1"
-    },
-    "playground": {
-      "display": "none"
     }
   }
 }
