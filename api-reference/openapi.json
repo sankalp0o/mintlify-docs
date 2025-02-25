@@ -17,7 +17,7 @@
           {
             "name": "apikey",
             "in": "header",
-            "description": "",
+            "description": "Get your API key from finigami.com/settings",
             "required": true,
             "example": "<api_key>",
             "schema": {
@@ -33,17 +33,18 @@
                 "properties": {
                   "file": {
                     "type": "string",
-                    "format": "binary"
+                    "format": "binary",
+                    "description":"Send file as a binary"
                   },
                   "upload_type": {
                     "example": "document",
                     "type": "string",
-                    "description": "Should always be document"
+                    "description": "This should always be document"
                   },
                   "workflow_id": {
                     "example": "51bbfd6c-884d-4311-a25e-223c54598a5f",
                     "type": "string",
-                    "description":"This is the ID for the template created for your document type."
+                    "description":"This is the ID for the template created for your document type. If you're unsure, please reach out to us."
                   }
                 },
                 "required": [
@@ -57,7 +58,7 @@
         },
         "responses": {
           "200": {
-            "description": "",
+            "description": "The response will be a JSON object containing all the keys mentioned in the template.",
             "content": {
               "application/json": {
                 "schema": {
