@@ -18,7 +18,15 @@
               "authentication",
               "run-document-template"
             ]
+          },
+          {
+          "group": "Endpoints",
+          "openapi": {
+            "source": "/api-reference/openapi.json",
+            "directory": "api-reference"
           }
+        }
+      ]
         ],
     "global": {
       "anchors": []
