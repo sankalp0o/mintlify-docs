@@ -16,7 +16,6 @@
               "introduction", 
               "credits",
               "authentication",
-              "run-document-template",
               "/api-reference/endpoint/get"
             ]
           }

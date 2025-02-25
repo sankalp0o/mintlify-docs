@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "My Project",
+    "title": "Run APIs",
     "description": "",
     "version": "1.0.0"
   },
@@ -37,11 +37,13 @@
                   },
                   "upload_type": {
                     "example": "document",
-                    "type": "string"
+                    "type": "string",
+                    "description": "Should always be document"
                   },
                   "workflow_id": {
                     "example": "51bbfd6c-884d-4311-a25e-223c54598a5f",
-                    "type": "string"
+                    "type": "string",
+                    "description":"This is the ID for the template created for your document type."
                   }
                 },
                 "required": [
